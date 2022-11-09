@@ -4,9 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { CalculatorComponent } from './calculator/calculator.component';
+import { AmitavaComponent } from './amitava/amitava.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalculatorComponent,
+    AmitavaComponent
   ],
   imports: [
     BrowserModule,
